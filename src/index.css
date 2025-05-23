@@ -121,7 +121,47 @@ nav ul li a{
 }
 
 
-
+/* Section3 pasrt2 */
 #sec3-2 .img-div {
     width: 100%;
+}
+
+
+
+
+/* Section-4 */
+#maindiv-sec4 {
+    width: 75%;
+    margin: 0 auto;
+}
+#maindiv-sec4 h1{
+    color: #00ae47;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    width: 100%;
+}
+#maindiv-sec4 #bg-div {
+    background-color: #84d1a6;
+    height: 6px;
+    border-radius: 15px;
+}
+#maindiv-sec4 h3{
+    font-size: 20px;
+    color: #00ae47;
+    font-weight: 400;
+}
+
+
+
+
+/* Section-4 part2 */
+#maindiv-sec4-2 h3{
+      font-size: 20px;
+    color: #00ae47;
+    font-weight: 400;
+}
+#maindiv-sec4-2 span {
+    font-weight: bold;
 }

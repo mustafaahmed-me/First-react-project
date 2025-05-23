@@ -9,9 +9,9 @@ import Section3img8 from './assets/Section3/img-8.png'
 
 const Section3 = () => {
     return (
-        <div className="w-[100%]">
+        <div  id="solution" className="w-[100%]">
             <section id="maindiv-sec3" className="pt-40">
-            <h1 id="solution">Solution</h1>
+            <h1>Solution</h1>
             <div id="bg-div"></div>
             <div id='main-8div' className=' grid grid-cols-4 p-10 items-center'>
                 <div className='dg-div flex flex-col justify-center items-center p-20 h-90'> 
