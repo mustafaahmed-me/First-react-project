@@ -1,4 +1,3 @@
-import './App.css'
 
 const Header = () => {
 
@@ -7,10 +6,10 @@ const Header = () => {
             <h1 className="text-white">Green Protocol</h1>
             <nav className=" w-[35%]"> 
                 <ul className=" flex justify-between">
-                    <li><a href="#problem">Problem</a></li>
-                    <li><a href="">Solution</a></li>
-                    <li><a href="">Bussiness Model</a></li>
-                    <li><a href="">Profit Distribution</a></li>
+                    <li><a href="#problem" className="hover:underline">Problem</a></li>
+                    <li><a href="#solution" className="hover:underline">Solution</a></li>
+                    <li><a href="" className="hover:underline">Bussiness Model</a></li>
+                    <li><a href="" className="hover:underline">Profit Distribution</a></li>
                 </ul>
             </nav>
         </header>
