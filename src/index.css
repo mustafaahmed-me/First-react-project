@@ -165,3 +165,204 @@ nav ul li a{
 #maindiv-sec4-2 span {
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styles */
+
+/* Header */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    nav {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+     nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+} 
+
+/* Section 1 */
+@media (max-width: 768px) {
+    #sec1 {
+        text-align: center;
+        padding-top: 50px;
+    }
+    #sec1 h1 {
+        font-size: 40px;
+        word-spacing: 5px;
+    }
+    #sec1 div {
+        height: auto;
+        gap: 10px;
+    }
+    #sec1 div img {
+        height: 90px;
+    }
+    #sec1 div .line {
+        height: 3px;
+    }
+}
+
+/* Section 2 */
+@media (max-width: 768px) {
+    #sec2-div {
+        flex-direction: column;
+        padding: 20px;
+    }
+    #sec2-div p {
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    #sec2-div img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+/* Section 3 */
+@media (max-width: 1024px) {
+    #main-8div {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+@media (max-width: 768px) {
+    #main-8div {
+        grid-template-columns: 1fr !important;
+        padding: 10px;
+    }
+    .dg-div, .lg-div {
+        padding: 15px;
+    }
+    #maindiv-sec3 h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    #maindiv-sec3 h3 {
+        font-size: 18px;
+    }
+}
+
+/* Section 3 Part 2 */
+@media (max-width: 768px) {
+    #sec3-2 .img-div {
+        flex-direction: column;
+    }
+    #sec3-2 .img-div img {
+        width: 100% !important;
+    }
+}
+
+/* Section 4 */
+@media (max-width: 1024px) {
+    #maindiv-sec4 .flex-wrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+@media (max-width: 768px) {
+    #maindiv-sec4 h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    #maindiv-sec4 h3 {
+        font-size: 16px;
+    }
+}
+
+/* Section 4 Part 2 */
+@media (max-width: 1024px) {
+    #maindiv-sec4-2 .grid-cols-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    #maindiv-sec4-2 .grid-cols-3 {
+        grid-template-columns: 1fr;
+    }
+    #maindiv-sec4-2 h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/* General Mobile Optimization */
+@media (max-width: 480px) {
+    h1, h3, p {
+        font-size: 16px !important;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+} 
