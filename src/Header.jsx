@@ -9,7 +9,7 @@ const Header = () => {
                     <li><a href="#problem" className="hover:underline">Problem</a></li>
                     <li><a href="#solution" className="hover:underline">Solution</a></li>
                     <li><a href="#bussiness model" className="hover:underline">Bussiness Model</a></li>
-                    <li><a href="" className="hover:underline">Profit Distribution</a></li>
+                    <li><a href="#profitDistribution" className="hover:underline">Profit Distribution</a></li>
                 </ul>
             </nav>
         </header>
